@@ -15,7 +15,7 @@ Right now the only way to add this extension to chrome is to;
 * Turn on developer mode,
 * Press load unpacked, 
 * Select the folder Purified SEngine, and press Select Folder
-*and it should say succesfully installed!
+* And it should say succesfully installed!
 
 ## Contact:
 
