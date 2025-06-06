@@ -7,4 +7,4 @@ Purify SEngine is a Google Chrome extension that removes AI overviews from searc
 
 ## Contact:
 
-For any privacy concerns or issues with regards to my extension, email direct @ hieledeveloper@gmail.com
+For any privacy concerns or issues with regards to my extension, email directly @ hieledeveloper@gmail.com
