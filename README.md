@@ -1,6 +1,4 @@
-
-![icon128](https://github.com/user-attachments/assets/81925f9d-6bae-41e8-b587-a28b3d98c5e7) 
-# Purify SEngine
+### Purify SEngine
 
 
 ## Description:
