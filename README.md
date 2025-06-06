@@ -9,6 +9,13 @@ Purify SEngine is a Google Chrome extension that removes AI overviews from searc
 * Upload in Chrome Webstore (In progress)
 * Change the placeholder icon to something better :D
 
+## Installation:
+Right now the only way to add this extension to chrome is to;
+* Under, chrome://extensions 
+* Turn on developer mode,
+* Press load unpacked, select the folder Purified SEngine, and press Select Folder
+and it should say succesfully installed!
+
 ## Contact:
 
 For any privacy concerns, suggestions or issues with regards to my extension, email directly @ hieledeveloper@gmail.com
