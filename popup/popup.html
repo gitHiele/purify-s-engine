@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purified SEngine</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header: Icon and App Name -->
+        <div class="header">
+            <img src="../icons/icon48.png" alt="App Icon" class="header-icon">
+            <h1 class="title">Purified SEngine</h1>
+            <div class="header-tooltip">
+                <span class="tooltip-icon">?</span>
+                <span class="tooltip-text">This extension helps clean up Google search results. Use the settings below to customize your experience.</span>
+            </div>
+        </div>
+
+        <!-- Divider Line -->
+        <hr class="divider">
+
+        <!-- Main Content: Description and Toggle Switch -->
+        <div class="main-content">
+            <div class="description">
+                <p>Remove AI Overviews from Google Search.</p>
+            </div>
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Settings Section -->
+        <div class="settings-section">
+            <select id="search-mode-select" title="Change search mode">
+                <option value="removeAI">Remove AI Overview</option>
+                <option value="webParameter">Display Web Results</option>
+                <option value="both">Both</option>
+            </select>
+        </div>
+
+        <!-- Footer: Developer Link -->
+        <div class="footer">
+             <hr class="divider footer-divider">
+            <span id="developer-link" class="footer-link">About the developer</span>
+        </div>
+    </div>
+    
+    <!-- Installation Overlay -->
+    <div id="install-success-overlay" class="overlay-container hidden">
+        <div class="overlay-content">
+            <span id="close-overlay-btn" class="close-btn" title="Close">&times;</span>
+            <p>Extension successfully installed!</p>
+        </div>
+    </div>
+
+    <!-- Toggle Notification -->
+    <div id="notification" class="notification-container">
+        <p id="notification-text"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
